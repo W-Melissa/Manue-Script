@@ -1,0 +1,127 @@
+/* Styles généraux */
+
+@import url('http://fonts.cdnfonts.com/css/rum-raisin');
+
+body{
+   font-family: 'open sans', sans-serif;
+}
+
+h2{
+    font-family: 'Rum Raisin';
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+figcaption{
+    font-family: 'Rum Raisin';
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.pinkShadow{
+    filter : drop-shadow(-2rem 2rem 0rem rgba(255, 208, 208, 0.4));
+}
+
+.pinkShadowLight{
+    filter : drop-shadow(-2rem 2rem 0rem rgba(255, 208, 208, 0.2));
+}
+
+.blueShadow{
+    filter : drop-shadow(-2rem 2rem 0rem rgba(37, 150, 190, 0.2));
+}
+.blueShadowLight{
+    filter : drop-shadow(-2rem 2rem 0rem rgba(187, 234, 234, 0.8));
+}
+
+/* Header */
+
+header{
+    background-image : url("../images/backgroundMenu.jpg")
+}
+
+.nav-link{
+    font-size: 1.8rem;
+    font-family: 'Rum Raisin';
+    color: #2596BE;
+}
+
+.nav-link:hover{
+    color: rgba(37, 150, 190, 0.5) ;
+}
+
+/* section #entreprise */
+#businessCard{
+    border-radius: 8%;
+    background-color: #BBEAF3;
+    font-size: 0.9rem;
+    width: 350px;
+    height: 200px;
+}
+
+#businessCard img{
+    border-radius: 100%;
+}
+
+#entreprise a{
+    position : relative;
+    bottom : 20px;
+}
+
+/* section #services */
+#services{
+    background: url("../images/accueilBackground-S2.jpg") no-repeat ;
+    background-size: cover;
+}
+
+#services img{
+    border-radius: 100%;
+    width: 180px;
+}
+
+.servicesContent{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    width: 700px;
+}
+
+/* #webRedac */
+
+#webRedac img{
+    border-radius: 100%;
+    width: 200px;
+}
+
+h3{
+    font-family: 'Rum Raisin';
+    font-size: 1.7rem;
+}
+
+/* Footer */
+footer{
+    background-color: #000F15 ;
+}
+
+footer h3{
+    color: #2596BE;
+}
+
+#menuFooter, #scheduleFooter{
+    border-right: solid 1px #2596BE;
+}
+
+#menuFooter ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+ 
+#siret{
+    color: #2596BE;
+    font-weight: bold;
+}
+
+#menuFooter, #scheduleFooter, #contactFooter{
+    color: #FFFFFF;
+}
+
+
