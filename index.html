@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+       <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        
         <link rel="stylesheet" href="css/style.css" />
         <title>Manue'Script</title>
         <meta name="Manue'Script" content="Vous voulez enchanter vos lecteurs par des articles de blog ou bien les séduire avec de belles fiches produits…"/>
@@ -19,10 +21,10 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active menuLink" aria-current="page" href="index.html">Accueil</a>
-                            <a class="nav-link ml-5 menuLink" href="prestations.html"> Prestations </a>
-                            <a class="nav-link ml-5 menuLink" href="quiSuisJe.html"> Qui suis-je ? </a>
-                            <a class="nav-link mx-5 pr-5 menuLink" href="contact.html"> Me Contacter </a>
+                            <a class="nav-link me-3" aria-current="page" href="index.html"> Accueil </a>
+                            <a class="nav-link me-3" href="prestations.html"> Prestations </a>
+                            <a class="nav-link me-3" href="quiSuisJe.html"> Qui suis-je ? </a>
+                            <a class="nav-link me-3" href="contact.html"> Me Contacter </a>
                         </div>
                     </div>
                 </div>
@@ -31,18 +33,18 @@
         <main class="container-fluid">
             <section id="entreprise">
                 <div class="row p-5 m-5 align-items-center">
-                    <div class="col-12 col-xl-6 text-center">
-                        <div id="businessCard" class="p-4 m-auto">
+                    <div class="col-12 col-xl-6 order-2 order-xl-1 text-center">
+                        <div id="businessCard" class="p-4 m-auto rounded-5">
                             <p class="font-italic">Prêt à travailler avec moi? Alors Cliquez sur le bouton pour me contacter. A bientôt sur Manue'Script !</p>
                             <div class="d-flex justify-content-center align-items-center">
-                                <img src="images/photo.jpg" alt="Photo de profil" width="60px">
-                                <p class="pl-3 mb-0">Emmanuelle</p>
+                                <img src="images/photo.jpg" alt="Photo de profil" width="60px" class="me-2 rounded-circle">
+                                <p class="mb-0">Emmanuelle</p>
                             </div>
                         </div>
                         <a type="button" class="btn btn-dark" href="prestations.html"> Me contacter </a>
                     </div>
-                    <div class="col-12 col-xl-6">
-                        <h2>Manue'Script En Quelques mots</h2>
+                    <div class="col-12 col-xl-6 order-1 order-xl-2 mb-5 mb-xl-3">
+                        <h2 class="mb-5 mb-xl-3">Manue'Script En Quelques mots</h2>
                         <p>Mon rôle est de vous accompagner dans ce monde magique que représentent les lettres, les mots, les phrases… </p>
                         <p>Ma plume peut sans nul doute vous aider à avoir de beaux contenus optimisés, qui par un coup de mots magiques vous donneront plus de visibilité. </p>
                         <p>Vous voulez enchanter vos lecteurs par des articles de blog, les envoûter par vos informations inédites avec vos newsletters, les séduire avec de belles fiches produits… Je saurai ensorceler vos prospects, vos lecteurs, grâce aux mots-clefs toujours bien placés. <br>
@@ -54,25 +56,25 @@
             </section>
             <section id="services" class="p-5 d-flex align-self-center justify-content-center">
                 <div class="row">
-                    <div class="row col-12 col-xl-5 offset-xl-1 servicesContent">
+                    <div class="row col-12 col-xl-5 m-auto rounded-5 servicesContent">
                         <figure class="col-12 col-xl-6 text-center p-4">
-                            <img src="images/accueil5.png" alt="Image d'illustration" class="pinkShadow">
+                            <img src="images/accueil5.png" alt="Image d'illustration" class="pinkShadow rounded-circle">
                             <figcaption class="mt-5">Article de Blog</figcaption>
                         </figure>
                         <figure class="col-12 col-xl-6 text-center p-4"> 
-                            <img src="images/accueil6.png" alt="Image d'illustration" class="blueShadowLight">
+                            <img src="images/accueil6.png" alt="Image d'illustration" class="blueShadowLight rounded-circle">
                             <figcaption class="mt-5">Storytelling</figcaption>
                         </figure>
                         <figure class="col-12 col-xl-6 text-center p-4">
-                            <img src="images/accueil7.png" alt="Image d'illustration" class="blueShadow">
+                            <img src="images/accueil7.png" alt="Image d'illustration" class="blueShadow rounded-circle">
                             <figcaption class="mt-5">Copywriting</figcaption>
                         </figure>
                         <figure class="col-12 col-xl-6 text-center p-4">
-                            <img src="images/accueil8.png" alt="Image d'illustration" class="pinkShadowLight">
+                            <img src="images/accueil8.png" alt="Image d'illustration" class="pinkShadowLight rounded-circle">
                             <figcaption class="mt-5">Fiche produit</figcaption>
                         </figure>
                     </div>
-                    <div class="text-center col-12 col-xl-5 servicesContent d-flex">
+                    <div class="text-center col-12 col-xl-5 m-auto rounded-5 servicesContent d-flex">
                         <div class="m-auto">
                             <h2 class="mb-5">Choisissez ce qui vous correspond</h2>
                             <a type="button" class="btn btn-dark btn-lg" href="prestations.html"> PRESTATIONS </a>
@@ -84,36 +86,36 @@
                 <h2 class="m-5">Les 4 piliers du Rédacteur Web et du correcteur</h2>
                 <div class="row mb-5">
                     <figure class="col-12 col-xl-3 text-center text-uppercase">
-                        <img src="images/accueil4.png" alt="Image d'illustration" class="blueShadowLight">
+                        <img src="images/accueil4.png" alt="Image d'illustration" class="blueShadowLight rounded-circle">
                         <figcaption class="mt-4">plaisir d'écrire</figcaption>
                     </figure>
                     <figure class="col-12 col-xl-3 text-center text-uppercase">
-                        <img src="images/accueil1.png" alt="Image d'illustration" class="pinkShadow">
-                        <figcaption class="mt-4">imagination</figcaption>
-                    </figure>
-                    <figure class="col-12 col-xl-3 text-center text-uppercase">
-                        <img src="images/accueil2.png" alt="Image d'illustration" class="blueShadow">
+                        <img src="images/accueil2.png" alt="Image d'illustration" class="pinkShadow rounded-circle">
                         <figcaption class="mt-4">curiosité</figcaption>
                     </figure>
                     <figure class="col-12 col-xl-3 text-center text-uppercase">
-                        <img src="images/accueil3.png" alt="Image d'illustration" class="pinkShadowLight">
+                        <img src="images/accueil1.png" alt="Image d'illustration" class="blueShadow rounded-circle">
+                        <figcaption class="mt-4">imagination</figcaption>
+                    </figure>
+                    <figure class="col-12 col-xl-3 text-center text-uppercase">
+                        <img src="images/accueil3.png" alt="Image d'illustration" class="pinkShadowLight rounded-circle">
                         <figcaption class="mt-4">relever les défis</figcaption>
                     </figure>
                 </div>
-                <div class="row my-5">
-                    <div class="col-12 col-xl-5 offset-xl-1">
+                <div class="row">
+                    <div class="col-12 col-xl-5 offset-xl-1 mb-4">
                         <h3>Plaisir D'écrire</h3>
                         <p>En tant que rédactrice web, je voue un plaisir inconditionnel à l’écriture. Le plaisir d’écrire est un fruit qu’il faut cultiver et transmettre à chaque génération</p>
                     </div>
-                    <div class="col-12 col-xl-5">
-                        <h3>Imagination</h3>
-                        <p>Quand on rentre dans le monde de l’écriture, notre imagination nous transporte dans un monde différent grâce aux mots, aux phrases et à  l’émotion qui se dégage du texte. C’est grâce à elle que vos lecteurs seront transportés où vous le souhaitez.</p>
-                    </div>
-                    <div class="col-12 col-xl-5 offset-xl-1">
+                    <div class="col-12 col-xl-5 mb-4">
                         <h3>Curiosité</h3>
                         <p>La curiosité n’est pas un vilain défaut, bien au contraire. Elle nous apprend à développer notre culture générale grâce au travail de recherche qu’impose le métier de rédacteur web.</p>
                     </div>
-                    <div class="col-12 col-xl-5">
+                    <div class="col-12 col-xl-5 offset-xl-1 mb-4">
+                        <h3>Imagination</h3>
+                        <p>Quand on rentre dans le monde de l’écriture, notre imagination nous transporte dans un monde différent grâce aux mots, aux phrases et à  l’émotion qui se dégage du texte. C’est grâce à elle que vos lecteurs seront transportés où vous le souhaitez.</p>
+                    </div>
+                    <div class="col-12 col-xl-5 mb-5 mb-xl-4 pb-5">
                         <h3>Relever Les Défis</h3>
                         <p>Ma mission si vous l’acceptez, relever les défis que vous me proposez afin de satisfaire vos attentes. “Rien n’est impossible, seules les limites de nos esprits définissent certaines choses comme inconcevables” (Marc Levy).</p>
                     </div>
@@ -122,22 +124,22 @@
         </main>
         <footer class="container-fluid p-5">
             <div class="row">
-                <div id="menuFooter" class="col-12 col-xl-3 offset-xl-1">
+                <div id="menuFooter" class="col-12 col-xl-3 offset-xl-1 d-none d-xl-block">
                     <h3>MENU</h3>
-                    <ul>
+                    <ul class="ps-0">
                         <li>Accueil</li>
                         <li>Rédaction web</li>
                         <li>Qui suis-je ?</li>
                         <li>Me contacter</li>
                     </ul>
                 </div>
-                <div id="scheduleFooter" class="col-12 col-xl-3 offset-xl-1">
+                <div id="scheduleFooter" class="col-11 col-md-5 col-xl-3 offset-1 d-none d-md-block">
                     <h3>HORAIRES</h3>
                     <p>Lundi et Mardi de 8h30 à 16h30 <br>
                     Jeudi et Vendredi de 8h30 à 16h30</p>
                     <p id="siret">Siret : 91178911300014</p>
                 </div>
-                <div id="contactFooter" class="col-12 col-xl-3 offset-xl-1">
+                <div id="contactFooter" class="col-11 col-md-5 col-xl-3 offset-1">
                     <h3>Manue'Script</h3>
                     <p>Emanuelle Ordoquy - Thuaux <br>
                     Rédactrice Web SEO - Correctrice <br>
@@ -149,9 +151,8 @@
 
     <!-- Bootstrap Begin -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!-- Bootstrap End -->
     </body>
 </html>

@@ -10,7 +10,6 @@ h2{
     font-family: 'Rum Raisin';
     font-size: 2.5rem;
     text-align: center;
-
 }
 
 figcaption{
@@ -52,15 +51,10 @@ header{
 
 /* section #entreprise */
 #businessCard{
-    border-radius: 8%;
     background-color: #BBEAF3;
     font-size: 0.9rem;
     width: 350px;
     height: 200px;
-}
-
-#businessCard img{
-    border-radius: 100%;
 }
 
 #entreprise a{
@@ -75,20 +69,18 @@ header{
 }
 
 #services img{
-    border-radius: 100%;
     width: 180px;
 }
 
 .servicesContent{
     background-color: #FFFFFF;
-    border-radius: 5%;
     width: 700px;
+    min-height: 600px;
 }
 
 /* #webRedac */
 
 #webRedac img{
-    border-radius: 100%;
     width: 200px;
 }
 
@@ -106,13 +98,8 @@ footer h3{
     color: #2596BE;
 }
 
-#menuFooter, #scheduleFooter{
-    border-right: solid 1px #2596BE;
-}
-
 #menuFooter ul{
     list-style-type: none;
-    padding-inline-start: 0;
 }
  
 #siret{
@@ -124,4 +111,31 @@ footer h3{
     color: #FFFFFF;
 }
 
+#scheduleFooter{
+    border-right: solid 1px #2596BE;
+}
 
+/* @media */
+@media screen and (min-width: 1200px) {
+    #menuFooter, #scheduleFooter{
+        border-right: solid 1px #2596BE;
+    }
+}
+
+@media screen and (max-width : 1199px) {
+    body{
+        font-size: 1.4rem;
+    }
+    
+    h2{
+        font-size: 3.5rem;
+    }
+    
+    figcaption, h3, .nav-link{
+        font-size: 2.5rem;
+    }
+
+    #services img, #webRedac img{
+        width: 300px;
+    }
+}
