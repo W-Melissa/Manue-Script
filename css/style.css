@@ -96,6 +96,12 @@ footer h3, #siret{
     }
 }
 
+@media screen and (min-width : 992px) {
+    #prestations,#prestations2, #monHistoire,#monHistoire2{
+        height: 300px;
+    }
+}
+
 /* ******************** Index.html ******************** */
 
                     /* section #entreprise */
@@ -113,7 +119,7 @@ footer h3, #siret{
 
                     /* section #services */
 #services{
-    background: url("../images/accueilBackground-S2.jpg") no-repeat ;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/accueilBackground-S2.jpg") no-repeat ;
     background-size: cover;
 }
 
@@ -156,7 +162,42 @@ footer h3, #siret{
 
 /* ******************** prestations.html ******************** */
 
-#redacWeb{
-    background: url("../images/accueilBackground-S2.jpg") no-repeat ;
+#prestations,#prestations2{
+    background : linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("../images/bgGMenuPrestations.jpeg");
     background-size: cover;
+    background-position: 0 45%;
+}
+
+#prestations2{
+    background-position: bottom;
+}
+
+/* ******************** monHistoire
+.html ******************** */
+
+#monHistoire,#monHistoire2{
+    background : linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("../images/typeWriter.jpg");
+    background-size: cover;
+    background-position: 0 49%;;
+}
+
+#monHistoire2{
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#monHistoire2 #businessCard{
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+.shadowQuiSuisJe{
+    filter : drop-shadow(4rem 3rem 0rem rgba(255, 208, 208, 0.4));
+}
+
+@media screen and (max-width : 1050px) {
+    #monHistoire2{
+        display: none;
+    }
 }
