@@ -1,4 +1,4 @@
-/* Styles généraux */
+/* ******************** MAIN STYLE ******************** */
 
 @import url('http://fonts.cdnfonts.com/css/rum-raisin');
 
@@ -12,12 +12,18 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-family: 'Rum Raisin';
+    font-size: 1.7rem;
+}
+
 figcaption{
     font-family: 'Rum Raisin';
     font-size: 1.7rem;
     text-align: center;
 }
 
+/* Shadow */
 .pinkShadow{
     filter : drop-shadow(-2rem 2rem 0rem rgba(255, 208, 208, 0.4));
 }
@@ -33,7 +39,21 @@ figcaption{
     filter : drop-shadow(-2rem 2rem 0rem rgba(187, 234, 234, 0.8));
 }
 
-/* Header */
+@media screen and (max-width : 1199px) {
+    body{
+        font-size: 1.4rem;
+    }
+    
+    h2{
+        font-size: 3.5rem;
+    }
+    
+    figcaption, h3, .nav-link{
+        font-size: 2.5rem;
+    }
+}
+
+                    /* Header */
 
 header{
     background-image : url("../images/backgroundMenu.jpg")
@@ -49,7 +69,36 @@ header{
     color: rgba(37, 150, 190, 0.5) ;
 }
 
-/* section #entreprise */
+                   /* Footer */
+footer{
+    background-color: #000F15 ;
+}
+
+footer h3, #siret{
+    color: #2596BE;
+}
+
+#menuFooter ul{
+    list-style-type: none;
+}
+
+#menuFooter, #scheduleFooter, #contactFooter{
+    color: #FFFFFF;
+}
+
+#scheduleFooter{
+    border-right: solid 1px #2596BE;
+}
+
+@media screen and (min-width: 1200px) {
+    #menuFooter, #scheduleFooter{
+        border-right: solid 1px #2596BE;
+    }
+}
+
+/* ******************** Index.html ******************** */
+
+                    /* section #entreprise */
 #businessCard{
     background-color: #BBEAF3;
     font-size: 0.9rem;
@@ -62,64 +111,26 @@ header{
     bottom : 20px;
 }
 
-/* section #services */
+                    /* section #services */
 #services{
     background: url("../images/accueilBackground-S2.jpg") no-repeat ;
     background-size: cover;
 }
 
 #services img{
-    width: 180px;
+    width: 250px;
 }
 
 .servicesContent{
     background-color: #FFFFFF;
     width: 700px;
-    min-height: 600px;
+    min-height: 740px;
 }
 
-/* #webRedac */
+                    /* #webRedac */
 
 #webRedac img{
-    width: 200px;
-}
-
-h3{
-    font-family: 'Rum Raisin';
-    font-size: 1.7rem;
-}
-
-/* Footer */
-footer{
-    background-color: #000F15 ;
-}
-
-footer h3{
-    color: #2596BE;
-}
-
-#menuFooter ul{
-    list-style-type: none;
-}
- 
-#siret{
-    color: #2596BE;
-    font-weight: bold;
-}
-
-#menuFooter, #scheduleFooter, #contactFooter{
-    color: #FFFFFF;
-}
-
-#scheduleFooter{
-    border-right: solid 1px #2596BE;
-}
-
-/* @media */
-@media screen and (min-width: 1200px) {
-    #menuFooter, #scheduleFooter{
-        border-right: solid 1px #2596BE;
-    }
+    width: 300px;
 }
 
 @media screen and (max-width : 1199px) {
@@ -135,7 +146,17 @@ footer h3{
         font-size: 2.5rem;
     }
 
-    #services img, #webRedac img{
+    #services img{
         width: 300px;
     }
+    .servicesContent{
+        min-height: 500px;
+    }
+}
+
+/* ******************** prestations.html ******************** */
+
+#redacWeb{
+    background: url("../images/accueilBackground-S2.jpg") no-repeat ;
+    background-size: cover;
 }
