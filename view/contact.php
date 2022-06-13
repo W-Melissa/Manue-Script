@@ -6,7 +6,7 @@ require_once "header.php";
             <h2 class="mb-5">Me Contacter</h2>
             <?php if(isset($_SESSION['newsession'])): 
                 session_unset()?>
-                <p class="bg-success">Votre message a bien été envoyé</p>
+                <p class="bg-info text-center fw-bold bg-opacity-50 py-3">Votre message a bien été envoyé</p>
             <?php endif; ?>
             <div class="row">
                 <div id="leftRow" class="col-xl-4">
@@ -25,22 +25,22 @@ require_once "header.php";
                 <form action="../model/registrationmail.php" method="POST" class="my-5 offset-xl-1 col-xl-7" id="rightRow">
                     <div class="mb-3">
                         <label for="nom" class="form-label">Votre nom :</label>
-                        <input type="text" class="form-control" id="nom" placeholder="Nom" name="nom" required>
+                        <input type="text" class="form-control" id="nom" placeholder="Nom" name="nom" maxlength="255" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Votre email :</label>
-                        <input type="email" class="form-control" id="email" placeholder="exemple@email.com" name="email" required>
+                        <input type="email" class="form-control" id="email" placeholder="exemple@email.com" name="email" maxlength="255" required>
                     </div>
                     <div class="mb-3">
                         <label for="objMsg" class="form-label">Objet :</label>
-                        <input type="text" class="form-control" id="objetMsg" placeholder="Sujet de votre message..." name="objMsg" required>
+                        <input type="text" class="form-control" id="objetMsg" placeholder="Sujet de votre message..." name="objMsg" maxlength="255" required>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Votre message :</label>
-                        <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
+                        <textarea class="form-control" id="message" rows="3" name="message" maxlength="2000" required></textarea>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-primary" type="submit" name="submit">ENVOYER</button>
+                        <button class="btn btn-primary bg-info border-info" type="submit" name="submit">ENVOYER</button>
                     </div>
                 </form>
             </div>

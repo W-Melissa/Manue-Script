@@ -1,4 +1,10 @@
-
+<?php
+session_start();
+require_once "../controller/logout.php";
+if(!$_SESSION['sessionadministrator']){
+    header('Location: ../view/login.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -16,6 +22,10 @@
         <meta name="Manue'Script" content="Vous voulez enchanter vos lecteurs par des articles de blog ou bien les séduire avec de belles fiches produits…"/>
     </head>
     <body class="bg-light">
+        
+    <form action="" method="POST" class="text-end mt-5 me-5">
+        <button class="btn btn-primary bg-info border-info" type="submit" name="logout">SE DECONNECTER</button>
+    </form>
         <h2 class="m-5">Administration de Manue'Script</h2>
         <ul class="nav nav-tabs">
             <li class="nav-item bg-primary bg-opacity-10 border" id="attente">
