@@ -47,14 +47,14 @@ window.onload = (test) => {
 
                 let imgfolder = document.createElement('img');
                 imgfolder.id='imgfolder'+data[i].id_msg;
-                imgfolder.setAttribute('src', '../images/folder.png');
+                imgfolder.setAttribute('src', 'images/folder.png');
                 imgfolder.setAttribute('height', '20px');
                 imgfolder.setAttribute('onclick', 'archiveMsg(this)');
                 document.getElementById("th"+i).appendChild(imgfolder);
 
                 let imgbin = document.createElement('img');
                 imgbin.id= 'imgbin'+data[i].id_msg;
-                imgbin.setAttribute('src', '../images/recyclebin.png');
+                imgbin.setAttribute('src', 'images/recyclebin.png');
                 imgbin.setAttribute('height', '20px');
                 imgbin.setAttribute('onclick', 'deleteMsg(this)');
                 imgbin.classList.add('ms-3');
@@ -178,7 +178,7 @@ window.onload = (test) => {
 
                     let imgbin = document.createElement('img');
                     imgbin.id='imgbin'+data[i].id_msg;
-                    imgbin.setAttribute('src', '../images/recyclebin.png');
+                    imgbin.setAttribute('src', 'images/recyclebin.png');
                     imgbin.setAttribute('height', '20px');
                     imgbin.setAttribute('onclick', 'deleteMsg(this)');
                     document.getElementById("th"+i).appendChild(imgbin);
