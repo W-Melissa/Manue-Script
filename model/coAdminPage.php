@@ -10,9 +10,12 @@ if(isset($_POST['submit'])){
         $sqlPrepare->execute([
             'admin_id' => $admin_id,
             'admin_pwd' => $admin_pwd
-        ]) or die(print_r($mysqlConnection->errorInfo())) ;;
-        $_SESSION['sessionadministrator'] = "admin";
-        header('Location: ../view/admin.php');
+        ]);
+        $cpte= $sqlPrepare->rowCount();
+        if ($cpte !== 0){
+            $_SESSION['sessionadministrator'] = "admin";
+            header('Location: ../view/admin.php');
+        }
     }
 }
 ?>

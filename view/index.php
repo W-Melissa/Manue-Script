@@ -6,11 +6,11 @@
                 <div id="businessCard" class="p-4 m-auto rounded-5">
                     <p class="fst-italic">Prêt à travailler avec moi? Alors Cliquez sur le bouton pour me contacter. A bientôt sur Manue'Script !</p>
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="../images/photo.jpg" alt="Photo de profil" width="60px" class="me-2 rounded-circle">
+                        <img src="images/photo.jpg" alt="Photo de profil" width="60px" class="me-2 rounded-circle">
                         <p class="mb-0">Emmanuelle</p>
                     </div>
                 </div>
-                <a type="button" class="btn btn-dark" href="prestations.php"> Me contacter </a>
+                <a type="button" class="btn btn-dark" href="contact.php"> Me contacter </a>
             </div>
             <div class="col-12 col-xl-6 order-1 order-xl-2 mb-5 mb-xl-3">
                 <h2 class="mb-5 mb-xl-3">Manue'Script En Quelques mots</h2>
@@ -27,19 +27,19 @@
         <div class="row">
             <div class="row col-12 col-xl-5 m-auto rounded-5 servicesContent">
                 <figure class="col-12 col-xl-6 text-center p-4">
-                    <img src="../images/accueil1.jpg" alt="Image d'illustration" class="pinkShadow rounded-circle">
+                    <img src="images/accueil1.jpg" alt="Image d'illustration" class="pinkShadow rounded-circle">
                     <figcaption class="mt-5">Article de Blog</figcaption>
                 </figure>
                 <figure class="col-12 col-xl-6 text-center p-4"> 
-                    <img src="../images/accueil2.jpg" alt="Image d'illustration" class="blueShadowLight rounded-circle">
+                    <img src="images/accueil2.jpg" alt="Image d'illustration" class="blueShadowLight rounded-circle">
                     <figcaption class="mt-5">Storytelling</figcaption>
                 </figure>
                 <figure class="col-12 col-xl-6 text-center p-4">
-                    <img src="../images/accueil3.jpg" alt="Image d'illustration" class="blueShadow rounded-circle">
+                    <img src="images/accueil3.jpg" alt="Image d'illustration" class="blueShadow rounded-circle">
                     <figcaption class="mt-5">Copywriting</figcaption>
                 </figure>
                 <figure class="col-12 col-xl-6 text-center p-4">
-                    <img src="../images/accueil4.jpg" alt="Image d'illustration" class="pinkShadowLight rounded-circle">
+                    <img src="images/accueil4.jpg" alt="Image d'illustration" class="pinkShadowLight rounded-circle">
                     <figcaption class="mt-5">Fiche produit</figcaption>
                 </figure>
             </div>
@@ -55,19 +55,19 @@
         <h2 class="m-5">Les 4 piliers du Rédacteur Web et du correcteur</h2>
         <div class="row mb-5">
             <figure class="col-12 col-xl-3 text-center text-uppercase">
-                <img src="../images/accueil5.jpg" alt="Image d'illustration" class="blueShadowLight rounded-circle">
+                <img src="images/accueil5.jpg" alt="Image d'illustration" class="blueShadowLight rounded-circle">
                 <figcaption class="mt-5">plaisir d'écrire</figcaption>
             </figure>
             <figure class="col-12 col-xl-3 text-center text-uppercase">
-                <img src="../images/accueil6.jpg" alt="Image d'illustration" class="pinkShadow rounded-circle">
+                <img src="images/accueil6.jpg" alt="Image d'illustration" class="pinkShadow rounded-circle">
                 <figcaption class="mt-5">curiosité</figcaption>
             </figure>
             <figure class="col-12 col-xl-3 text-center text-uppercase">
-                <img src="../images/accueil7.jpg" alt="Image d'illustration" class="blueShadow rounded-circle">
+                <img src="images/accueil7.jpg" alt="Image d'illustration" class="blueShadow rounded-circle">
                 <figcaption class="mt-5">imagination</figcaption>
             </figure>
             <figure class="col-12 col-xl-3 text-center text-uppercase">
-                <img src="../images/accueil8.jpg" alt="Image d'illustration" class="pinkShadowLight rounded-circle">
+                <img src="images/accueil8.jpg" alt="Image d'illustration" class="pinkShadowLight rounded-circle">
                 <figcaption class="mt-5">relever les défis</figcaption>
             </figure>
         </div>

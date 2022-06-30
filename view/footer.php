@@ -3,10 +3,10 @@
                 <div id="menuFooter" class="col-12 col-xl-3 offset-xl-1 d-none d-xl-block">
                     <h3>MENU</h3>
                     <ul class="ps-0">
-                        <li>Accueil</li>
-                        <li>Rédaction web</li>
-                        <li>Mon histoire</li>
-                        <li>Me contacter</li>
+                        <li><a href="../view/index.php" class="text-white text-decoration-none">Accueil</a></li>
+                        <li><a href="../view/prestations.php" class="text-white text-decoration-none">Prestations</a></li>
+                        <li><a href="../view/mon-histoire.php" class="text-white text-decoration-none">Mon histoire</a></li>
+                        <li><a href="../view/contact.php" class="text-white text-decoration-none">Me contacter</a></li>
                     </ul>
                 </div>
                 <div id="scheduleFooter" class="col-11 col-md-5 col-xl-3 offset-1 d-none d-md-block">

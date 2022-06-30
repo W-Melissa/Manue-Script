@@ -4,7 +4,7 @@ session_start();
 require_once "connectDB.php";
 
 //Récupère les données du formulaire
-if ( isset( $_POST['submit'] ) ) {
+if ( isset( $_POST['submit']) && isset($_POST['privateData']) && !empty($_POST['nom']) && !empty($_POST['email']) && !empty($_POST['objMsg']) && !empty($_POST['message'])){
   $nom = htmlspecialchars($_POST['nom']);
   $email = htmlspecialchars($_POST['email']); 
   $objMsg = htmlspecialchars($_POST['objMsg']); 

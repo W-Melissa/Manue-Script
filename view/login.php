@@ -13,7 +13,7 @@ require_once "../model/coAdminPage.php";
        <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <title>Administration login - Manue'Script</title>
         <meta name="Manue'Script" content="Vous voulez enchanter vos lecteurs par des articles de blog ou bien les séduire avec de belles fiches produits…"/>
     </head>
@@ -31,6 +31,9 @@ require_once "../model/coAdminPage.php";
             <div class="">
                 <button class="btn btn-primary" type="submit" name="submit">SE CONNECTER</button>
             </div>
+            <?php if(isset($cpte) && $cpte == 0) :?>
+                <p class="bg-warning bg-opacity-75 mt-5">Votre identifiant ou votre mot de passe est incorrect.</p>
+            <?php endif;?>
         </form>
         <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

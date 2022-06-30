@@ -112,7 +112,8 @@ footer h3, #siret{
     height: 200px;
 }
 
-#entreprise a{
+#entreprise a, #prestations2 a
+{
     position : relative;
     bottom : 20px;
 }

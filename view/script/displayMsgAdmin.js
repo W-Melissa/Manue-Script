@@ -35,7 +35,15 @@ window.onload = (test) => {
                 pth.id='pth'+i;
                 pth.classList.add('mt-2');
                 document.getElementById("th"+i).appendChild(pth);
-                pth.innerHTML = data[i].id_msg;
+                let dateFr = new Date(data[i].recu_le);
+                let dateLocale = dateFr.toLocaleString('fr-FR',{
+                    year: 'numeric',
+                    month: 'numeric',
+                    day: 'numeric',
+                    hour: 'numeric',
+                    minute: 'numeric',
+                    second: 'numeric'})
+                pth.innerHTML = dateLocale;
 
                 let imgfolder = document.createElement('img');
                 imgfolder.id='imgfolder'+data[i].id_msg;
@@ -158,7 +166,15 @@ window.onload = (test) => {
                     let pth = document.createElement('p');
                     pth.id='pth'+i;
                     document.getElementById("th"+i).appendChild(pth);
-                    pth.innerHTML = data[i].id_msg;
+                    let dateFr = new Date(data[i].recu_le);
+                    let dateLocale = dateFr.toLocaleString('fr-FR',{
+                        year: 'numeric',
+                        month: 'numeric',
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: 'numeric',
+                        second: 'numeric'})
+                    pth.innerHTML = dateLocale;
 
                     let imgbin = document.createElement('img');
                     imgbin.id='imgbin'+data[i].id_msg;

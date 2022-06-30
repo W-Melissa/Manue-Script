@@ -19,7 +19,7 @@
                 <p>L’aviez-vous deviné? </p>
             </div>
             <div class="col-xl-4 offset-xl-1 d-none d-xl-block">
-                <img src="../images/monHistoire.jpg" alt="Image d'illustration" class="shadowQuiSuisJe rounded-circle" width="400px">
+                <img src="images/monHistoire.jpg" alt="Image d'illustration" class="shadowQuiSuisJe rounded-circle" width="400px">
             </div>
         </div>
     </section>
@@ -27,7 +27,7 @@
         <div id="businessCard" class="p-4 rounded-5 w-25 h-50">
             <p class="fst-italic">À vous qui avez lu et parcouru mon site, on se dit à bientôt pour travailler ensemble ?</p>
             <div class="d-flex justify-content-center align-items-center">
-                <img src="../images/photo.jpg" alt="Photo de profil" width="60px" class="me-2 rounded-circle">
+                <img src="images/photo.jpg" alt="Photo de profil" width="60px" class="me-2 rounded-circle">
                 <p class="mb-0">Emmanuelle</p>
             </div>
         </div>

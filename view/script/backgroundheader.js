@@ -1,5 +1,5 @@
 switch(window.location.pathname){
-    case '/manuescript/view/accueil.php':
+    case '/manuescript/view/index.php':
         document.getElementById("bgHeader").id = "" ;
         document.getElementById("titlePage").innerHTML="Accueil - Manue'Script";
         break;
